@@ -1,0 +1,8 @@
+Progress 3-11-23
+- created react app
+- imported navbar from portfolio app with corresponding technologies
+- created seeds folder with movie database seeds
+- router-link for routing pages
+- tailwindcss with config files and import files
+- react-icons for navbar
+- react-scroll for smooth scrolling

@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
+
+@layer base {
+  body {
+    @apply font-[Assistant];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    hsla(78, 31%, 33%, 0.8),
+    rgba(65, 86, 95, 0.8)
+  ) !important;
+}
+
+@media (max-width: 640px) {
+  .profile-image {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
